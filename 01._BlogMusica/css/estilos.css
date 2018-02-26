@@ -2,13 +2,14 @@ div{
   border: 1px solid #222220;
 }
 .logo{
-  height: 200px;
+  height: 180px;
 }
 .social{
-  height: 37px;
+  padding-left: 20%;
+  height: 35px;
 }
-ul li{
+/* ul li{
   list-style: none;
   display: inline-block;
   padding-left: 30px;
-}
+} */
