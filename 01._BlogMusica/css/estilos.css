@@ -12,10 +12,27 @@ div{
   height: 180px;
 }
 .social{
-  height: 37px;
+  height: 33px;
 }
 ul li{
   padding-top: 10px;
   list-style: none;
   display: inline-block;
+}
+.navegador{
+background-color: #c2faeb;
+}
+.flex-sm-fill{
+  color: #000;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 0%;
+  background-color: #cccaed;
+}
+.parrafo{
+  text-align: justify;
+  width:70%;
+}
+.blog{
+  width: 200px;
 }
