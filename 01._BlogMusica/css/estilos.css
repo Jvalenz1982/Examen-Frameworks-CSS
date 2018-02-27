@@ -14,6 +14,9 @@
 .social{
   height: 33px;
 }
+.social:hover{
+  height: 45px;
+}
 ul li{
   padding-top: 10px;
   list-style: none;
@@ -57,4 +60,13 @@ h4{
 }
 .form-control{
   width:100%;
+}
+.list-group-item:hover{
+  background-color: #e6e6e6;
+  color:#6f62d9;
+  font-weight: bold;
+}
+.nav-link:hover{
+  background-color: #e6e6e6;
+
 }
