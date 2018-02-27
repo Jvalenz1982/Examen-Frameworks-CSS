@@ -1,9 +1,9 @@
 .container{
-  border: 1px solid red;
-  background-color: #efeff5;
+  /* border: 1px solid red; */
+  background-color: #ceceec;
 }
 .row{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 /* div{
   border: 1px solid #222220;
@@ -14,7 +14,6 @@
 .social{
   height: 33px;
 }
-
 ul li{
   padding-top: 10px;
   list-style: none;
@@ -33,7 +32,10 @@ background-color: #c2faeb;
   background-color: #cccaed;
 }
 .social-icon{
-  background-color: #efeff5;
+  background-color: #ceceec;
+}
+h4{
+  margin-top:15px;
 }
 .parrafo{
   text-align: justify;
