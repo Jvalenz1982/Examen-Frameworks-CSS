@@ -40,5 +40,19 @@ background-color: #c2faeb;
   width:70%;
 }
 .blog{
-  width: 200px;
+  width: 220px;
+  margin: 1vw;
+}
+.busqueda{
+  width: 30px;
+}
+.mb-2{
+  margin-top: 10px;
+  width: 100%;
+}
+.coment{
+  width: 30px;
+}
+.form-control{
+  width:100%;
 }
