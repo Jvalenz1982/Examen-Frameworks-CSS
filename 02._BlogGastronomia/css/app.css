@@ -1,0 +1,31 @@
+.fondo{
+  background: rgba(56, 77, 171, 0.30);
+}
+.row{
+  padding: 5px;
+  border: 1px solid #575bc2;
+}
+.header {
+  background: #e7f4e6;
+  padding: 3px;
+  border: 1px solid #bb2a1b;
+  height: 150PX;
+}
+.menu{
+  background: #fff;
+  padding: 3px;
+  border: 1px solid #bb2a1b;
+  height: 100PX;
+}
+.main{
+  background: #eedddd;
+  padding: 5px;
+  border: 1px solid #000;
+  height: auto;
+}
+
+#izquierda #derecha{
+  border: 1px solid #d569e7;
+  padding: 3px;
+  height: 1200px;
+}
