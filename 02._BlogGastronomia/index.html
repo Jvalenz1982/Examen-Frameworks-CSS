@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
   <title>Blog Gastronomico</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -14,53 +15,110 @@
   <div class="column row fondo">
     <div class="large-12 columns">
       <!--//////////////*/*/*/*/*/************ Inicia header ***********/*/*/*/*/*/*/////////////-->
-      <div class="row">
-        <div class="small-12 medium-12 large-6 columns header ">
-          <h2 class="nombre">Gastronomia Méxicana</h2>
+      <div class="row antes  hide-for-small-only">
+        <div class="small-12 medium-5 large-4 columns header ">
+          <div class="column row">
+            <h4 class="nombre">Gastronomia Méxicana</h4>
+          </div>
+          <div class="column row">
+            <p class="slogan">La mejos Comida</p>
+          </div>
         </div>
-        <div class="small-8 medium-2 large-6 columns header hide-for-small-only hide-for-medium-only"></div>
+        <div class="small medium-7 large-8 columns header hide-for-small-only"></div>
       </div>
       <!--**************////////////// Inicia Contenido de dos columnas ///////////////************* -->
       <div class="row">
-        <div class="small medium-4 large-4 columns hide-for-small-only">
+        <div class="medium-5 large-4 columns hide-for-small-only">
           <div class="row">
-            <div class="small medium-12 large-12 menu columns">
-              Buscador
-            </div>
+            <!-- Iniciando Buscador /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/-->
             <div class="medium-12 large-12 menu columns">
-              Navegador
+              <div class="large-12 columns">
+                <div class="row collapse">
+                  <div class="small-10 columns">
+                    <input type="text" placeholder="Buscar">
+                  </div>
+                  <div class="small-2 columns">
+                    <a href="#" class="button postfix">Go</a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!--termina buscador e Inicia menu /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/-->
             <div class="medium-12 large-12 menu columns">
-              Imagenes
+              <ul class="side-nav">
+                <li class="nav"><a href="#">Inicio</a></li>
+                <li class="nav"><a href="#">Mi plato perfecto</a></li>
+                <li class="nav"><a href="#">Mis recetas</a></li>
+              </ul>
             </div>
+            <!--******************** Termina menu e */*/*/*/*/*/*/*/* Inicia favoritos-->
             <div class="medium-12 large-12 menu columns">
-              Historial
+              <div class="row">
+                <ul>
+                  <li class="fav"><img class="favoritos" src="img/carne-asada.jpg" alt="favorito"></li>
+                  <li class="fav"><img class="favoritos" src="img/chilesenhogada.jpg" alt="favorito"></li>
+                  <li class="fav"><img class="favoritos" src="img/coctel.png" alt="favorito"></li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul>
+                  <li class="fav"><img class="favoritos" src="img/picodegallo.jpg" alt="favorito"></li>
+                  <li class="fav"><img class="favoritos" src="img/guacamole.jpg" alt="favorito"></li>
+                  <li class="fav"><img class="favoritos" src="img/tamaloaxaqueño.jpg" alt="favorito"></li>
+                </ul>
+              </div>
+            </div>
+            <!--******************** Termina favoritos e */*/*/*/*/*/*/* Inicia historial  -->
+            <div class="medium-12 large-12 menu columns">
+              <div class=" column row">
+                <div class="small-12 medium-12 large-12 columns">
+                  <h4>Historial:</h4>
+                  </br>
+                  <ul class="historial">
+                    <li>Sopa de verduras</li>
+                    <li>Ensalada Azteca</li>
+                    <li>Salsas en 5 minutos</li>
+                    <li>Chuletas en chipotle</li>
+                    <li>Carnitas de puerco</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <!--/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/ Columna de entradas con imagenes y textos /*/*/*/*/*/*/*/*/*/*/*/*/*/*/-->
-        <div class="small-12 medium-8 large-8 columns">
+        <div class="small-12 medium-7 large-8 columns">
           <div class="row">
             <div class="small-12 medium-12 large-12 columns main columns">
-              <h4>Este es el Titulo de esta imagen</h4>
+              <h4>Menudo para el frio</h4>
               </br>
-              <p>Fecha de publicación Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </br>
-              <img src="img/comida.jpg" alt="Cualquier imagen">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </br>
-              <p>Caja de comentarios</p>
+              <p class="text-left">Marzo / 01 / 2018 </p>
+              <a class="th" role="button" aria-label="Thumbnail" href="img/menudo.png">
+                <img aria-hidden=true src="img/menudo.png"/>
+              </a>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="large-12 columns">
+                <label>Deja tu comentario
+                  <textarea placeholder="Escribe tu comentario"></textarea>
+                </label>
+                <a href="#" class="button radius fi-magnifying-glass">Publicar</a>
+              </div>
             </div>
             <!--////////////////*/*/*/*/*/*/*/**/*/*/ contenido de segunda imagen /*/*/*/*/*/*/*/*/*/*/*///////////////-->
-            <div class="large-12 medium-12 large-12 columns main columns">
-              <h4>Este es el Titulo de esta segunda imagen</h4>
+            <div class="large-12 medium-12 large-12 columns main segundo columns">
+              <h4>Carne asada para el fin de semana</h4>
               </br>
-              <p>Fecha de publicación Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </br>
-              <img src="img/comida.jpg" alt="Cualquier imagen">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </br>
-              <p>Caja de comentarios</p>
+              <p class="text-left">Marzo / 01 / 2018 </p>
+              <a class="th" role="button" aria-label="Thumbnail" href="img/carne-asada.jpg">
+                <img aria-hidden=true src="img/carne-asada.jpg"/>
+              </a>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="large-12 columns">
+                <label>Deja tu comentario
+                  <textarea placeholder="Escribe tu comentario"></textarea>
+                </label>
+                <a href="#" class="button radius">Publicar</a>
+              </div>
             </div>
           </div>
         </div>
