@@ -82,7 +82,18 @@ ul li{
   display: inline-block;
   width: 30%;
 }
-#izquierda #derecha{
-  padding: 3px;
-  height: 1200px;
+.avatar{
+  float: left;
+  width: 95px;
+}
+.coment{
+  padding-top: 10px;
+  border: 1px solid #000;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+}
+.wrap{
+  background: #e0e8f7;
+  padding:10px;
 }
