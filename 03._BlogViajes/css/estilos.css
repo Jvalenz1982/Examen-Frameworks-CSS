@@ -1,0 +1,33 @@
+html {
+   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+body {
+background-image: url(../img/Arareco.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #64b5f6;
+
+}
+.row{
+  padding: 8px;
+}
+.brand-logo{
+  width: 150px;
+}
+.resp-img{
+  width: 36px;
+}
+nav{
+  
+  background-color: rgba(254, 254, 254, 0);
+}
+.card{
+  padding:8px;
+}
+.ruinas{
+  width: 350px;
+  float: left;
+  padding:7px;
+}
